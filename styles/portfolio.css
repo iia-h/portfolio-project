@@ -6,6 +6,27 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .about-section {
+    padding: 0;
+    text-align: center;
+  }
+}
+
 body {
   font-family: var(--default-font-family);
 }
@@ -71,19 +92,22 @@ p {
   padding: 60px 60px;
 }
 
-@media (max-width: 900px) {
-  h1 {
-    font-size: 44px;
-    line-height: 1.5;
-  }
-  h2 {
-    font-size: 44px;
-  }
-  .hero {
-  padding: 80px 20px;
+/* About page */
+
+.about-section {
+  padding: 160px 20px;
 }
-  .project-description {
-    padding: 0;
-    text-align: center;
-  }
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  margin: 20px;
 }
