@@ -5,6 +5,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Iia is a front-end developer, based in Ukraine">
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
    <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,26 +15,28 @@
       rel="stylesheet">
    <link rel="stylesheet" href="/styles/portfolio.css">
    <script src="https://kit.fontawesome.com/1793985e66.js" crossorigin="anonymous"></script>
-   <title>Document</title>
+   <title>Front-end developer - Iia Habaraieva</title>
 </head>
 
 <body>
    <div class="container">
       <nav class="d-flex justify-content-between">
-         <img href="/" src="/images/logo.png" alt="logo-image" class="logo d-none d-md-block">
-         <img href="/" src="/images/logo-small.png" alt="logo-image" class="logo d-block d-md-none">
+         <a href="/" title="Homepage">
+            <img src="/images/logo.png" alt="logo-image" class="logo d-none d-md-block">
+            <img src="/images/logo-small.png" alt="logo-image" class="logo d-block d-md-none">
+         </a>
          <ul>
             <li class="active">
-               <a href="/">Home</a>
+               <a href="/" title="Homepage">Home</a>
             </li>
             <li>
-               <a href="/about.html">About</a>
+               <a href="/about.html" title="About Iia">About</a>
             </li>
             <li>
-               <a href="/work.html">Work</a>
+               <a href="/work.html" title="Iia's work">Work</a>
             </li>
             <li>
-               <a href="/contact.html">Contact</a>
+               <a href="/contact.html" title="Contact me">Contact</a>
             </li>
          </ul>
       </nav>
@@ -43,33 +46,16 @@
       <h1>Iia Habaraieva</h1>
       <h2 class="mb-5">Front-end developer, based in Ukraine</h2>
       <div>
-         <a href="#" class="btn btn-branding">Contact me</a>
+         <a href="/contact.html" title="Contact Iia" class="btn btn-branding">Contact me</a>
       </div>
    </div>
    <div class="container">
       <p class="text-center m-5">Featured Project which my best projects be choice to show</p>
+
       <div class="row mb-5">
          <div class="col d-none d-lg-block">
-            <img src="/images/yogurt.png" class="img-fluid" alt="Yogurt-image">
+            <img src="/images/weather-app.png" class="img-fluid rounded" alt="Weather-image">
          </div>
-         <div class="col">
-            <div class="project-description">
-               <h2 class="mb-5">Yogurt Project</h2>
-               <p class="mb-4 text-muted">Far far away, behind the word mountains, far from the countries Vokalia and
-                  Consonantia,
-                  there live the
-                  blind
-                  texts.
-                  Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A
-                  small river
-                  named
-                  Duden flows by</p>
-               <a href="#" class="btn btn-branding-outline"> Learn more</a>
-            </div>
-         </div>
-      </div>
-      <div class="row mb-5">
-
          <div class="col">
             <div class="project-description">
                <h2 class="mb-5">Weather App</h2>
@@ -82,16 +68,36 @@
                   small river
                   named
                   Duden flows by</p>
-               <a href="#" class="btn btn-branding-outline"> Learn more</a>
+               <a href="https://www.shecodes.io/workshops/shecodes-plus-5ca2643b-5c58-470a-a2b5-cec87a6456dc/projects/1096167"
+                  target="_blank" class="btn btn-branding-outline" title="Weather project"> Learn more</a>
+            </div>
+         </div>
+      </div>
+      <div class="row mb-5">
+
+         <div class="col">
+            <div class="project-description">
+               <h2 class="mb-5">Harry Potter Project</h2>
+               <p class="mb-4 text-muted">Far far away, behind the word mountains, far from the countries Vokalia and
+                  Consonantia,
+                  there live the
+                  blind
+                  texts.
+                  Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A
+                  small river
+                  named
+                  Duden flows by</p>
+               <a href="https://www.shecodes.io/workshops/shecodes-basics-5f97edd3-2c33-4dac-b21b-b4f6f5948979/projects/952617"
+                  target="_blank" class="btn btn-branding-outline" title="Harry Potter project"> Learn more</a>
             </div>
          </div>
          <div class="col d-none d-lg-block">
-            <img src="/images/weather.png" class="img-fluid" alt="Weather-image">
+            <img src="/images/hp-app.png" class="img-fluid rounded" alt="Harry-Potter-image">
          </div>
       </div>
       <div class="row mb-5">
          <div class="col d-none d-lg-block">
-            <img src="/images/dictionary.png" class="img-fluid" alt="dictionary-image">
+            <img src="/images/dictionary.png" class="img-fluid rounded" alt="dictionary-image">
          </div>
          <div class="col">
             <div class="project-description">
@@ -105,28 +111,33 @@
                   small river
                   named
                   Duden flows by</p>
-               <a href="#" class="btn btn-branding-outline"> Learn more</a>
+               <a href="/work.html" class="btn btn-branding-outline" title="All projects"> Learn more</a>
             </div>
          </div>
       </div>
       <footer>
          <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
             <div>
-               <h4>Work Inquiry</h4>
+               <h3>Work Inquiry</h3>
                <p class="text-muted">Let's work together</p>
             </div>
             <div>
-               <a href="/contact.html" class="btn btn-branding mt-3">Contact me</a>
+               <a href="/contact.html" title="Contact Iia" class="btn btn-branding mt-3">Contact me</a>
             </div>
          </div>
          <div class="d-flex justify-content-center mb-5">
-            <a href="mailto:habaraieva@gmail.com" class="email-link">habaraieva@gmail.com</a>
+            <a href="mailto:habaraieva@gmail.com" title="Email Iia" class="email-link">habaraieva@gmail.com</a>
          </div>
          <div class="social-links d-flex justify-content-center">
-            <a href="http://www.github.com/iia-h" target="_blank"><i class="fa-brands fa-github"></i></a>
-            <a href="http://www.instagram.com/i.gabaraeva_" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            <a href="http://www.linkedin.com/in/iia-h-3218b3231" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="http://www.github.com/iia-h" title="Github" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="http://www.linkedin.com/in/iia-h-3218b3231" title="Linkedin" target="_blank"><i
+                  class="fa-brands fa-linkedin-in"></i></a>
          </div>
+         <p class="text-center mt-5">
+            This project was coded by Iia Habaraieva, and it is
+            <a href="https://github.com/iia-h/portfolio-project.git" target="_blank"
+               title="Project on github">open-sourced</a>
+         </p>
       </footer>
    </div>
 
