@@ -113,7 +113,23 @@ p {
 }
 
 .logo {
-  max-height: 40px;
+  font-size: 1.2em;
+  background: linear-gradient(
+    112.1deg,
+    var(--text-color) 11.4%,
+    var(--branding-color) 70.2%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  padding: 0.3em 0.6em;
+  border: 3px solid transparent;
+  border-image: linear-gradient(
+    112.1deg,
+    var(--text-color) 11.4%,
+    var(--branding-color) 70.2%
+  );
+  border-image-slice: 1;
 }
 
 nav {
@@ -207,5 +223,9 @@ footer .social-links a:hover {
   .content h1 {
     font-size: 44px;
     line-height: 55px;
+  }
+
+  footer h3 {
+    font-size: 38px;
   }
 }
