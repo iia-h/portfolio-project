@@ -60,6 +60,12 @@ p {
   color: var(--text-color);
 }
 
+.stiky {
+  position: sticky;
+  top: 0;
+  background: #fff;
+}
+
 .btn-branding {
   background-color: var(--branding-color);
   color: #fff;
